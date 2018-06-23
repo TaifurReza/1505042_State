@@ -1,14 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package pkg1505042_state;
 
-/**
- *
- * @author ms
- */
-public class VM {
+
+public class VM{
+    
+    
+    private VMSt state;
+
+    
+    public VMSt getVMState() {
+        return state;
+    }
+
+    public void setVMState(VMSt VMState) {
+        this.state = VMState;
+    }
+    
     
 }
