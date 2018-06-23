@@ -1,14 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package pkg1505042_state;
 
-/**
- *
- * @author ms
- */
-public class DPNCSt {
+
+public class DPNCSt implements VMSt {
+    
+   @Override
+   
+   public String toString () {
+       
+       return "Thanks for using our VM.\nDrinks with change delivered.";
+   }
     
 }
