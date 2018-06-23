@@ -1,14 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package pkg1505042_state;
 
-/**
- *
- * @author ms
- */
-public class DNPBSt {
+public class DNPBSt implements VMSt {
+
+
+    @Override
+    public String toString() {
+        return "Drinks not to be delivered for insufficient deposit";
+    }
+
+
     
 }
+
